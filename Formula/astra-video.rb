@@ -7,12 +7,12 @@ class AstraVideo < Formula
   on_macos do
     on_arm do
       url "https://github.com/thientranhung/homebrew-tap/releases/download/v#{version}/astra-video_#{version}_Darwin_arm64.tar.gz"
-      sha256 "a8a998464dbcdfaaca6ab77e7466b1d380675310a126447073180feeaeb96c97"
+      sha256 "d78e0c0b237fc8c17efc0feb6c5b43dfeaac2dca8109dc06bebf2361f434668d"
     end
 
     on_intel do
       url "https://github.com/thientranhung/homebrew-tap/releases/download/v#{version}/astra-video_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "29b5a50b950b9d5cf43857ceb6b502cac9e04538174ddb49af74334525fed0e8"
+      sha256 "297c570ab7afb7f7850a1dc5c117f4c77ae0fdfea046edffb27ac19db135dc04"
     end
   end
 

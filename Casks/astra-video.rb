@@ -4,11 +4,11 @@ cask "astra-video" do
 
   on_macos do
     on_intel do
-      sha256 "53ed73eb471f9b26691c33f164fe6ae9c9a83ac36ee38133f390f638320f3b7c"
+      sha256 "2a1eb36381a0600b278982cf06dbebfbf1239102b8eddb8f823230845e585dc5"
       url "https://github.com/thientranhung/homebrew-tap/releases/download/v#{version}/astra-video_#{version}_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "16a29672a921e0a86c4e3ca1922f2e2268eda997f14c20f03db112fbe2f540c6"
+      sha256 "fb5bd425d008dd2cd7291d490526807afcf9eca7132fe002a62d5378434d4d1d"
       url "https://github.com/thientranhung/homebrew-tap/releases/download/v#{version}/astra-video_#{version}_Darwin_arm64.tar.gz"
     end
   end

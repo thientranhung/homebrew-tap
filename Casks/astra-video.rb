@@ -34,6 +34,12 @@ cask "astra-video" do
 
   binary "astra-video"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{staged_path}/astra-video"],
+                   sudo: false
+  end
+
   # No zap stanza required
 
   caveats <<~EOS

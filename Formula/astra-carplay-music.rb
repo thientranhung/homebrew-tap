@@ -1,9 +1,9 @@
 class AstraCarplayMusic < Formula
-  desc "Ghép file TTS × BG music cho CarPlay, xuất ra _output/"
+  desc "Mix TTS audio x background music for CarPlay via ElevenLabs API"
   homepage "https://github.com/thientranhung/astraler-carplay-music"
-  url "https://github.com/thientranhung/astraler-carplay-music/releases/download/v1.0.0/astra-carplay-music-v1.0.0-macos.tar.gz"
-  sha256 "b5bb0be048b377b077d6f6410954e859fea5fe631373139e3ab2e38c13fe1c1d"
-  version "1.0.0"
+  url "https://github.com/thientranhung/astraler-carplay-music/releases/download/v2.0.0/astra-carplay-music-vv2.0.0-macos.tar.gz"
+  sha256 "2e295ae521825f756750cfba0023d2644d1935edc8534e69fad0ac00697ec010"
+  version "2.0.0"
 
   depends_on "ffmpeg"
 
@@ -12,6 +12,6 @@ class AstraCarplayMusic < Formula
   end
 
   test do
-    assert_match "astra-carplay-music 1.0.0", shell_output("#{bin}/astra-carplay-music --version")
+    assert_match "astra-carplay-music v2.0.0", shell_output("#{bin}/astra-carplay-music --version")
   end
 end
